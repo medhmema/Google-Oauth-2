@@ -6,7 +6,7 @@ const findOrCreate = require('mongoose-findorcreate');
 const cookieSession = require('cookie-session');
 const { Router } = require('express');
 
-mongoose.connect("mongodb+srv://user:user123@cluster0.jgfoq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {useUnifiedTopology: true, useNewUrlParser: true});
+mongoose.connect("mongodb+srv://"USERNAME":"USER_PASSWORD"@cluster0.jgfoq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {useUnifiedTopology: true, useNewUrlParser: true});
 
 
 const userSchema = new mongoose.Schema({
